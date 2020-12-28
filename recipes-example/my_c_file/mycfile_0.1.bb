@@ -8,7 +8,7 @@ S="${WORKDIR}"
 
 do_compile(){
 
-    ${CC} -c userprog.c userprog
+    ${CC} userprog.c ${LDFLAGS} -o userprog
 
 }
 
